@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+
+</head>
+<body>
+    <h1>Imagens Dinamicâ</h1>    
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou tente diminuir o tamanho do seu navegador. </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/Imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/imagem-M.png" type="image/png">
+        <img src="Imagens/Sem título.png" alt="Imagem Desmosntração">
+        <h1>Reproduzindo audio</h1>
+        <p>Vamos reproduzir audios em HTML5</p>
+        <audio preload="metadata" autoplay controls>
+            <source src="midia/looperman-l-0623169-0242499-true-stories-dababy-migos-roddy-part1-nofuk.wav" type="audio/wav">
+            <p>Seu navegador não consegue reproduzir áudio. <a href="midia/looperman-l-0623169-0242499-true-stories-dababy-migos-roddy-part1-nofuk.wav">Clique aqui para baixar o arquivo em MP3.</a></p>
+        </audio>
+        
+    </picture>
+</body>
+</html>
